@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        Debug.Log("Health restored!");
     }
 
     private void Update()
